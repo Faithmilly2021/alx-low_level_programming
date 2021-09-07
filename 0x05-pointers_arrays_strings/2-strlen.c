@@ -1,15 +1,15 @@
 #include "main.h"
-#include  <stdio.h>
+#include <stdio.h>
 #include <string.h>
 /**
 * _strlen - checks for the length of string
-* @a: teh string to measure
-* Return:the length of s
+* @s: the string to measure
+* Return: the length of s
 */
 int _strlen(char *s)
 {
- int p = 0;
- while (*(s + p))
-  p++;
- return (p)
-  }
+int p = 0;
+while (*(s + p))
+p++;
+return (p);
+}
