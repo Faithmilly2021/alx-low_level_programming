@@ -1,0 +1,1 @@
+My focus is on variadic functions
